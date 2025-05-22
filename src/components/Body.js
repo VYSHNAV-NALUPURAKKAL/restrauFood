@@ -11,7 +11,7 @@ const Body = () => {
             <button className="filter-btn" onClick={()=>{
               const filteredData = data.filter((value)=> value.rating>=4)
               setData(filteredData)
-            }}>Top Rated Restaurants</button>
+            }}>4 Star Restaurants</button>
       </div>
       <div className="res-container">
         {data.map((value) => {
