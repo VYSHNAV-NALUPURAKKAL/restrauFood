@@ -29,7 +29,7 @@
 }
 
 .res-card {
-    margin: 5px;
+  margin: 5px;
   border: 1px solid #ddd;
   border-radius: 12px;
   width: 190px;
@@ -38,7 +38,7 @@
   padding: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+  }
 
 .res-card:hover {
   transform: translateY(-4px);
@@ -63,6 +63,9 @@
   margin: 0;
   font-size: 0.85rem;
   color: #666;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .restaurant-rating {
@@ -98,4 +101,28 @@
 .filter{
   text-align: center;
   width: 100%;
+}
+
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 75px;
+}
+.shimmer-card{
+ margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 190px;
+  height: 250px;
+  background-color: #fff8dc;
+  padding: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.login{
+  border-radius: 23px;
+  text-wrap:wrap;
+  box-shadow: #333;
+  width: 50px;
 }
